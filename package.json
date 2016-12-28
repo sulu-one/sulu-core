@@ -1,0 +1,30 @@
+{
+  "name": "sulu-core",
+  "version": "1.0.0",
+  "description": "sulu package manager",
+  "homepage": "https://github.com/sulu-one/sulu",
+  "author": {
+    "name": "s-a",
+    "email": "stephan.ahlf@googlemail.com",
+    "url": "https://github.com/s-a"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "preferGlobal": true,
+  "bin": {
+    "sulu-core": "lib/index.js"
+  },
+  "keywords": [
+    "sulu"
+  ],
+  "devDependencies": {},
+  "repository": "https://github.com/sulu-one/sulu-core.git",
+  "scripts": {},
+  "license": "MIT",
+  "dependencies": {
+    "shelljs": "^0.7.5",
+    "user-appdata": "^0.1.2"
+  }
+}
