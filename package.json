@@ -14,17 +14,16 @@
   "main": "lib/index.js",
   "preferGlobal": true,
   "bin": {
-    "sulu-core": "lib/index.js"
+    "sulu-core" : "lib/index.js"
   },
   "keywords": [
     "sulu"
   ],
-  "devDependencies": {},
+  "devDependencies": { 
+  }, 
   "repository": "https://github.com/sulu-one/sulu-core.git",
-  "scripts": {},
-  "license": "MIT",
-  "dependencies": {
-    "shelljs": "^0.7.5",
-    "user-appdata": "^0.1.2"
-  }
+  "scripts": {
+    "bump": "npm version patch && git push && git push --tags && npm publish"
+  },
+  "license": "MIT"
 }
